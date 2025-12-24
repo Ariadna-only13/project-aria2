@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreelanceHub - Знайдіть професіонала</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">FreelanceHub</div>
+                <ul class="nav-links">
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#how-it-works">Як це працює</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+                <a class="btn-primary" href="#contacts">Розмістити замовлення</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Знайдіть професіонала для вашого проєкту</h1>
+            <p>Тисячі фрілансерів готові допомогти вам втілити ваші ідеї в життя. Оберіть потрібну послугу та почніть співпрацю вже сьогодні.</p>
+            
+            <div class="search-box">
+                <input type="text" placeholder="Що ви шукаєте?">
+                <button class="btn-primary">Знайти</button>
+            </div>
+
+            <div class="tags">
+                <span class="tag" data-tag="Дизайн логотипу">Дизайн логотипу</span>
+                <span class="tag" data-tag="розробка сайту">розробка сайту</span>
+                <span class="tag" data-tag="редагування текстів">редагування текстів</span>
+                <span class="tag" data-tag="Переклад">Переклад</span>
+                <span class="tag" data-tag="Відеомонтаж">Відеомонтаж</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Популярні послуги</h2>
+                <p>Оберіть потрібну послугу та почніть співпрацю з професіоналами</p>
+            </div>
+
+            <div id="search-results" class="search-results"></div>
+
+            <div class="services-grid">
+                <div class="card" data-title="Розробка сайту">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Розробка сайту</h3>
+                    <p>Створення сайтів, лендінгів, інтернет-магазинів</p>
+                    <div class="price">від 5000 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Редагування текстів">
+                    <div class="card-icon"><i class="fa-regular fa-file-alt"></i></div>
+                    <h3>Редагування текстів</h3>
+                    <p>Коректура, вичитка, редагування контенту</p>
+                    <div class="price">від 200 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Виконання лабораторних">
+                    <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+                    <h3>Виконання лабораторних</h3>
+                    <p>Допомога з лабораторними роботами, курсовими</p>
+                    <div class="price">від 300 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Дизайн логотипу">
+                    <div class="card-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3>Дизайн логотипу</h3>
+                    <p>Створення унікального логотипу для бренду</p>
+                    <div class="price">від 1000 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Відеомонтаж">
+                    <div class="card-icon"><i class="fa-solid fa-video"></i></div>
+                    <h3>Відеомонтаж</h3>
+                    <p>Монтаж відео, кольорокорекція, ефекти</p>
+                    <div class="price">від 800 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="SMM-просування">
+                    <div class="card-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h3>SMM-просування</h3>
+                    <p>Ведення соціальних мереж, контент-план</p>
+                    <div class="price">від 3000 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Фотозйомка">
+                    <div class="card-icon"><i class="fa-solid fa-camera"></i></div>
+                    <h3>Фотозйомка</h3>
+                    <p>Предметна, портретна, подієва зйомка</p>
+                    <div class="price">від 1500 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Переклад текстів">
+                    <div class="card-icon"><i class="fa-solid fa-language"></i></div>
+                    <h3>Переклад текстів</h3>
+                    <p>Переклад документів, технічних текстів</p>
+                    <div class="price">від 150 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Бізнес-консалтинг">
+                    <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Бізнес-консалтинг</h3>
+                    <p>Аналіз бізнесу, стратегії розвитку</p>
+                    <div class="price">від 2000 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Створення музики">
+                    <div class="card-icon"><i class="fa-solid fa-music"></i></div>
+                    <h3>Створення музики</h3>
+                    <p>Написання треків, аранжування, зведення</p>
+                    <div class="price">від 1000 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Налаштування реклами">
+                    <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3>Налаштування реклами</h3>
+                    <p>Google Ads, Facebook Ads, таргетинг</p>
+                    <div class="price">від 2500 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+
+                <div class="card" data-title="Технічна підтримка">
+                    <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+                    <h3>Технічна підтримка</h3>
+                    <p>Підтримка сайтів, налаштування серверів</p>
+                    <div class="price">від 500 грн</div>
+                    <a class="card-link" href="#contacts">Зв'язатися</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-title">
+                <h2>Як це працює</h2>
+                <p>Два простих кроки до реалізації вашого проєкту</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">
+                        <span class="step-number">1</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <h4>Знайдіть послугу</h4>
+                    <p>Оберіть потрібну категорію або скористайтеся пошуком</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">
+                        <span class="step-number">2</span>
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h4>Отримайте результат</h4>
+                    <p>Працюйте з виконавцем та отримайте якісну роботу</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>FreelanceHub</h4>
+                    <p style="font-size: 14px;">Платформа для пошуку і замовлення послуг від професійних фрілансерів.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакти</h4>
+                    <ul>
+                        <li><i class="fa-regular fa-envelope"></i> info@freelancehub.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +380 (XX) XXX-XX-XX</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Київ, Україна</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Соціальні мережі</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 FreelanceHub. Всі права захищені.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact modal (hidden by default) -->
+    <div id="contact-modal" class="modal" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-content" role="dialog" aria-modal="true">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <h3>Зв'язатися</h3>
+            <form id="contact-form">
+                <input type="hidden" name="service" id="contact-service" value="">
+                <label>Ім'я
+                    <input type="text" name="name" required>
+                </label>
+                <label>Email
+                    <input type="email" name="email" required>
+                </label>
+                <label>Повідомлення
+                    <textarea name="message" rows="4" required></textarea>
+                </label>
+                <div class="modal-actions">
+                    <button type="submit" class="btn-primary">Відправити</button>
+                    <button type="button" class="btn-secondary modal-close">Скасувати</button>
+                </div>
+                <div id="contact-success" class="contact-success" style="display:none;margin-top:12px;">Дякуємо! Повідомлення відправлено.</div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
