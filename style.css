@@ -1,5 +1,5 @@
         :root {
-            --primary-color: purple /* Синій колір кнопок */
+            --primary-color:purple; /* Синій колір кнопок */
             --bg-color: #F8FAFC; /* Світло-сірий фон */
             --text-dark: #1E293B; /* Темний текст */
             --text-gray: #64748B; /* Сірий текст */
@@ -408,4 +408,5 @@
         .modal-content textarea { width: 100%; padding: 10px; border: 1px solid #e2e8f0; border-radius: 6px; }
         .modal-actions { display:flex; gap:10px; margin-top:10px; }
         .btn-secondary { background:#f1f5f9; color:var(--text-dark); padding:8px 12px; border-radius:8px; border:none; cursor:pointer; }
+
         .contact-success { color: green; font-weight:600; }
